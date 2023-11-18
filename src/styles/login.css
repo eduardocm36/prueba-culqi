@@ -1,0 +1,168 @@
+.login_container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .conteiner_present{
+    background-color: #27A376;
+    width: 50%;
+  }
+
+  .container_login{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  .present_image {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .present_image img {
+    width: 100%;
+  }
+
+  .present_footer {
+    background-color: #111827;
+    padding: 50px;
+  }
+  
+  .present_footer div {
+    width: 100%;
+    color: #ffffff;
+  }
+
+  .pres_logo{
+    margin-bottom: 24px;
+  }
+
+  .pres_principal,
+  .pres_secondary {
+    width: 100%;
+    color: #ffffff;
+  }
+
+  .pres_principal {
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+  }
+
+  .pres_secondary {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+  }
+  
+  .container_form {
+    width: 480px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+  
+  .container_form h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    letter-spacing: 1px;
+  }
+  
+  .label_login {
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 0.4px;
+  }
+  
+  .label_login span {
+    color: #E03137;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input_login {
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+  }
+  
+  .login_input {
+    border: 1px solid #E9EAEC;
+    outline: 0;
+    letter-spacing: 0.4px;
+  }
+  
+  .login_input:focus {
+    border: 1px solid #0CAF60 !important;
+  }
+
+  .login_error{
+    display: flex;
+    align-items: center;
+    color: #E03137;
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .login_error img{
+    margin-right: 4px;    
+  }
+  
+  input[type=password] {
+    font-family: "Arial";
+  }
+
+  input[type=submit] {
+    background-color: #111827;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: 0;
+    margin: 8px 0;
+  }
+
+  input[type=submit]:hover {
+    cursor: pointer;
+  }
+
+  .submit_disabled{
+    background-color: #E7E9EC !important;
+    color: #B1B8C4 !important;
+  }
+
+  .container_form p {
+    font-weight: 500;
+    margin-top: 24px;
+    text-align: center;
+    color: #A0AEC0;
+  }
+
+  .container_form p a {
+    text-decoration: none;
+    color: #27A376;
+  }
+
+  .login_footer{
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: #A0AEC0;
+    right: 0;
+    left: 0;
+    bottom: 2%;
+  }
+
+
+  
+  
